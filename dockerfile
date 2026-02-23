@@ -1,0 +1,12 @@
+FROM python:3.9.21-slim-bookworm
+
+WORKDIR /app
+
+COPY app.py .
+
+RUN pip install --no-cache-dir flask prometheus_client
+
+EXPOSE 5000
+EXPOSE 8000
+
+CMD ["python", "app.py"]
