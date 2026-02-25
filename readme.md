@@ -55,6 +55,7 @@ Build Docker image (tagged with commit SHA)
 Scan image using Trivy
 Fail pipeline if CRITICAL vulnerabilities are found
 Security guardrail validated by intentionally using an outdated base image and confirming pipeline failure.
+Change image version to 3.9-slim and see how the pipeline crashes
 
 **Why This Project?**
 Demonstrates practical DevOps fundamentals:
