@@ -1,4 +1,4 @@
-**Order Processor – DevOps Demo**
+**Order-processing-monitoring-devsecops Demo**
 This project demonstrates production-style DevOps practices applied to a simple Flask application.
 It includes:
 Containerized Python application
