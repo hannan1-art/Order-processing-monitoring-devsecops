@@ -43,7 +43,7 @@ Automated Traffic & Reporting
 **Run:**
 **python traffic_and_report.py**
 **The script:**
-Sends 50 requests to the app
+**Sends 50 requests to the app**
 Waits for Prometheus scrape
 Queries Prometheus API
 Parses JSON response
